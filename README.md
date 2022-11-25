@@ -6,8 +6,9 @@ Base Flutter/Dart classes for ESC/POS printing. `Generator` class generates ESC/
 
 This is the "base" library that used for:
 
-- Flutter WiFi/Ethernet printing: [esc_pos_printer](https://github.com/andrey-ushakov/esc_pos_printer)
-- Flutter Bluetooth printing: [esc_pos_bluetooth](https://github.com/andrey-ushakov/esc_pos_bluetooth)
+[//]: # (- Flutter WiFi/Ethernet printing: [esc_pos_printer]&#40;https://github.com/andrey-ushakov/esc_pos_printer&#41;)
+
+[//]: # (- Flutter Bluetooth printing: [esc_pos_bluetooth]&#40;https://github.com/andrey-ushakov/esc_pos_bluetooth&#41;)
 
 ## Main Features
 
@@ -167,9 +168,13 @@ All available profiles can be retrieved by calling :
 final profiles = await CapabilityProfile.getAvailableProfiles();
 ```
 
-## How to Help
+[//]: # (## How to Help)
 
-- Add a CapabilityProfile to support your printer's model. A new profile should be added to `lib/resources/capabilities.json` file
-- Test your printer and add it in the table: [Wifi/Network printer](https://github.com/andrey-ushakov/esc_pos_printer/blob/master/printers.md) or [Bluetooth printer](https://github.com/andrey-ushakov/esc_pos_bluetooth/blob/master/printers.md)
-- Test and report bugs
-- Share your ideas about what could be improved (code optimization, new features...)
+[//]: # ()
+[//]: # (- Add a CapabilityProfile to support your printer's model. A new profile should be added to `lib/resources/capabilities.json` file)
+
+[//]: # (- Test your printer and add it in the table: [Wifi/Network printer]&#40;https://github.com/andrey-ushakov/esc_pos_printer/blob/master/printers.md&#41; or [Bluetooth printer]&#40;https://github.com/andrey-ushakov/esc_pos_bluetooth/blob/master/printers.md&#41;)
+
+[//]: # (- Test and report bugs)
+
+[//]: # (- Share your ideas about what could be improved &#40;code optimization, new features...&#41;)
